@@ -1,0 +1,135 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+th {
+    background-color: #2f80ed;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2f80ed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.badge-low {
+    background-color: #eb5757;
+}
+
+.badge-mid {
+    background-color: #f2994a;
+}
+
+.badge-high {
+    background-color: #27ae60;
+}
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    margin: 6px 0 12px 0;
+}
+
+.progress-bar {
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2f80ed;
+}
+.skill-tag {
+    display: inline-block;
+    background-color: #e3f2fd;
+    color: #1565c0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 4px 4px 0 0;
+    font-size: 13px;
+}
+.skill-tag.missing {
+    background-color: #fdecea;
+    color: #c62828;
+}
+/* ---------- Upload Form Styling ---------- */
+
+.form-label {
+    display: block;
+    margin: 20px 0 8px 0;
+    font-weight: 600;
+}
+
+.file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.text-area {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.btn-primary {
+    margin-top: 25px;
+    padding: 12px 28px;
+    background-color: #2f80ed;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #1c6ed5;
+}
